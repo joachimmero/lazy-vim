@@ -36,3 +36,6 @@ vim.g.autoformat = false
 -- Automatically write buffer to file when you quit
 -- or switch buffers if changes have been made.
 vim.opt.autowriteall = true
+
+-- Disable Snacks.nvim scroll animation
+vim.g.snacks_animate = false
