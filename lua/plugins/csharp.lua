@@ -1,7 +1,7 @@
 return {
   -- Add a custom Mason registry to access the Roslyn LSP
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     opts = {
       registries = {
         "github:Crashdummyy/mason-registry",
